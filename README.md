@@ -7,8 +7,8 @@ This repository contains solutions to various coding problems frequently asked i
 - **[Array](./Array)**: Problems related to array manipulation, sorting, searching, and optimization techniques.
 - **[String](./String)**: Covers string operations, pattern matching, and string manipulation problems.
 - **[Sorting](./Sorting)**: Includes sorting algorithms and challenges based on sorting techniques.
-- **[Number System](./NumberSystem)**: Problems related to number theory, conversions, and mathematical computations.
--  **[Numbers](./Numbers)**: Problems related to number & mathematical computations.
+<!-- - **[Number System](./NumberSystem)**: Problems related to number theory, conversions, and mathematical computations.
+-  **[Numbers](./Numbers)**: Problems related to number & mathematical computations.-->
 
 ## How to Use
 
@@ -19,8 +19,8 @@ Each category has a collection of C++ files with well-documented solutions. Feel
 - [`Array/`](./Array): Array-related coding problems.
 - [`String/`](./String): String manipulation problems.
 - [`Sorting/`](./Sorting): Sorting algorithm-based problems.
-- [`NumberSystem/`](./NumberSystem): Number theory and system-related challenges.
-- [`Numbers/`](./Numbers): Number and mathematical probelms.
+<!--- [`NumberSystem/`](./NumberSystem): Number theory and system-related challenges.
+- [`Numbers/`](./Numbers): Number and mathematical probelms. -->
 
 ### Contributing
 
