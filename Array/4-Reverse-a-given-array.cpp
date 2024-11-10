@@ -1,19 +1,31 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
-int revrsearray(int arr[], int n){
-    int s=0, e=n-1;
+void printArr(int arr[], int n){
+    for(int i=0; i<n; i++){
+        cout<<arr[i]<<" ";
+    }
+}
+void reverseArray(int arr[], int n){
+    int s=0;
+    int e=n-1;
     while(s<=e){
-        swap(arr[s], arr[e]);
+        int temp=arr[s];
+        arr[s]=arr[e];
+        arr[e]=temp;
         s++;
         e--;
     }
-    for(int i=0; i<n; i++){
-        cout << arr[i]<<" ";
-    }
+    printArr(arr,n);
 }
-int main(){
-    int arr[5]= {2,6,1,4,9};
-     revrsearray(arr,5);
+int main() {
+    // Write C++ code here
+    int n;
+    cin>>n;
+    int arr[n];
+    for(int i=0; i<n; i++){
+        cin>>arr[i];
+    }
+   reverseArray(arr,n);
 
     return 0;
 }
